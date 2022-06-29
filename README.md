@@ -1,27 +1,31 @@
-# ProjetoGoalPlace
+# Rede Social - GoalPlace
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+## 1.0 Proposta
 
-## Development server
+Desenvolver uma rede social destinada para os usuários que são adeptos ao tema: **futebol**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 2.0 Funcionalidades
 
-## Code scaffolding
+Os usuários poderão ter a experiência de uma *social network* com os seguintes aspectos:
+- **Publicações**: TEXTO e GIF (Graphics Interchange Format)
+- **Seguidores**: os seguidores vão receber todas as suas atualizações no feed.
+- **Amigos**: lista exclusiva de amigos pessoais.
+- **Feed**: uma lista de publicações personalizada para cada usuário de acordo com suas interações na rede.
+- **Em Alta**: acompanhar os assuntos mais comentados no dia.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 3.0 Stacks
+###### 3.1 Front-End
+- HTML
+- CSS
+- Typescript
+###### 3.2 Back-End
+- PHP
+- Javascript
+###### 3.3 Framework
+- Angular
+###### 3.3 Database
+- MySQL
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 4.0 Contato
+- Email: luiz.antunes3@fatec.sp.gov.br
+- Linkedin: [luizantunes3](https://www.linkedin.com/in/luizantunes3/)
