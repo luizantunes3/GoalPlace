@@ -1,0 +1,69 @@
+.main-postbox__container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--text-white-color);
+    width: 540px;
+    height: 116px;
+    border-radius: 10px;
+}
+
+.main-postbox__post{
+    align-items: center;
+    width: 500px;
+    height: 70px;
+    border-bottom: 1px solid var(--menu-disabled);
+}
+
+.main-postbox__post > i{
+    color: var(--menu-disabled);
+}
+
+input[type=text] {
+    width: 90%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border:solid 1px #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+  .main-postbox__actions{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 500px;
+    height: 45px;
+  }
+
+.btn-publish{
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: var(--notification-bg-color);
+}
+
+.btn-gif{
+    border: none;
+    color: var(--menu-gray-normal);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn-publish:hover{
+    background-color: var(--notification-bg-color-hover);
+}

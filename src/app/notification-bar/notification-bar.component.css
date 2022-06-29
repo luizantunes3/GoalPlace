@@ -1,0 +1,36 @@
+.notification-bar__main{
+    background-color: var(--notification-bg-color);
+    color: var(--text-white-color);
+    width: 100%;
+
+    cursor: pointer;
+}
+
+.notification-bar__box{
+    display:flex;
+    padding: 5px;
+    width: 100%;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+ /* CSS COM RESPONSIVIDADE */
+  @media screen and (max-width: 916px) {
+    .notification-bar__box{
+        font-size: 12px;
+    }
+    /*
+    display: none;
+    visibility: hidden;
+    */
+
+  }
+
+  @media screen and (max-width: 482px) {
+    .notification-bar__box{
+        font-size: 10px;
+    }
+    
+  }

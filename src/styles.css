@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: var(--main-bg-color);
+}
+
+:root {
+    --text-white-color: white;
+    --notification-bg-color: rgb(2, 58, 122);
+    --notification-bg-color-hover: rgb(3, 88, 185);
+    --main-bg-color: rgba(0,0,0,0.1);
+    --menu-gray-normal: rgba(17, 17, 17, 0.705);
+    --menu-gray-hover: rgba(17, 17, 17, 0.932);
+    --menu-disabled: rgba(17, 17, 17, 0.171)
+  }

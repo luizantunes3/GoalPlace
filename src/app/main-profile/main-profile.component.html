@@ -1,0 +1,26 @@
+<div class="main-profile__container">
+    <div class="main-profile__card">
+        <div class="main-profile__art"></div>
+        <div class="main-profile__photo">
+            <img [src]="userProfilePhotoURL">
+        </div>
+        <div class="main-profile__userName">
+            <p>{{ userName }}</p>
+        </div>
+        <div class="main-profile__userDescription">
+            <p>{{ userDescription }}</p>
+        </div>
+        <div class="main-profile__myTeam">
+            <p><i class="fa-solid fa-fire-flame-curved fa-xs"></i> Time: {{ userTeam }}</p>
+            <p><i class="fa-solid fa-calendar-days fa-xs"></i> Próximo jogo: {{ userTeam }}</p>
+            <p><i class="fa-solid fa-ranking-star fa-xs"></i> Classificação: {{ userTeam }}</p>
+            <p><i class="fa-solid fa-trophy fa-xs"></i> Último titulo: {{ userTeam }}</p>
+        </div>
+        <div class="main-profile__others">
+            <p><i class="fa-solid fa-user-group fa-xs"></i> Seguidores: {{ userTeam }}</p>
+            <p><i class="fa-solid fa-chart-line fa-xs"></i> Engajamento: {{ userTeam }}</p>
+            <p><i class="fa-solid fa-heart fa-xs"></i> Seguindo: {{ userTeam }}</p>
+            <p><i class="fa-solid fa-heart-circle-bolt fa-xs"></i> Amigos: {{ userTeam }}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+.nomain-body__container{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nomain-body__center{
+    display: flex;
+    flex-direction: column;
+}
